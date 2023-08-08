@@ -18,15 +18,18 @@ Hello, welcome to my repository of the Data Structures II course of the Bachelor
 
 # :rocket: Sobre / About
 
-O Objetivo dessa disciplina é compreender como armazenar e organizar dados de forma eficiente, bem como as
-diferentes estratégias e algoritmos que podem ser utilizados para acessar, manipular e gerenciar esses dados. Isso
-inclui o estudo de estruturas de dados como listas, pilhas, filas, recursividade, DEQUES. O conhecimento das
-estruturas de dados e algoritmos é fundamental para a implementação eficiente de sistemas de software, bem
-como para aplicações em áreas como inteligência artificial, processamento de dados e análise estatística.
+A disciplina de Estrutura de Dados II tem como objetivo geral capacitar os estudantes a compreender, projetar e
+implementar estruturas de dados avançadas, com ênfase em árvores e suas generalizações, bem como em tabelas
+hash e algoritmos para pesquisa e ordenação eficiente. O curso aborda árvores binárias, árvores de busca e árvores
+balanceadas, mostrando sua importância em diversas aplicações computacionais. Além disso, explora as tabelas
+hash como ferramenta para associação chave-valor e apresenta algoritmos de pesquisa e ordenação para
+manipulação eficiente de dados. Ao final, os alunos estarão aptos a escolher a estrutura de dados mais adequada
+para problemas práticos e contribuir de forma efetiva no desenvolvimento de sistemas e aplicações
+computacionais.
 
 <br>
 
-The goal of this discipline is to understand how to store and organize data efficiently, as well as the different strategies and algorithms that can be used to access, manipulate, and manage that data. This includes studying data structures such as lists, stacks, queues, recursion, and deques. Knowledge of data structures and algorithms is essential for the efficient implementation of software systems, as well as for applications in areas such as artificial intelligence, data processing, and statistical analysis.
+The Data Structures II course aims to train students to understand, design, and implement advanced data structures, with an emphasis on trees and their generalizations, as well as hash tables and algorithms for efficient search and sorting. The course covers binary trees, search trees, and balanced trees, showing their importance in various computer applications. In addition, it explores hash tables as a tool for key-value association and presents search and sorting algorithms for efficient data manipulation. At the end of the course, students will be able to choose the most appropriate data structure for practical problems and contribute effectively to the development of computer systems and applications.
 
 
 ## Tecnologias / Technologies
