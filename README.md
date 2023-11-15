@@ -42,6 +42,11 @@ The Data Structures II course aims to train students to understand, design, and 
 
 ## :memo: Listas de Exercicios / Exercise list
 
+* [Exercise 001 - Tree / Arvore](https://github.com/Joao-Victor-RVG/IF-Goiano-ED2/tree/main/Exercises/Exercise%20001%20Binary%20Tree/src)
+
+
+
+
 <br>
   
 
