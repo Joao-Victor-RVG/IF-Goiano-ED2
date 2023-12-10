@@ -40,28 +40,38 @@ The Data Structures II course aims to train students to understand, design, and 
 
 <br>
 
-## :memo: Listas de Exercicios / Exercise list
+### Listas de Exercicios / Exercise list
 
 * [Exercise 001 - Tree / Arvore](https://github.com/Joao-Victor-RVG/IF-Goiano-ED2/tree/main/Exercises/Exercise%20001%20Binary%20Tree/src)
+* [Exercise 002 - DSW Algoritmh](https://github.com/Joao-Victor-RVG/IF-Goiano-ED2/tree/main/Exercises/Exercise%20002%20DSW%20algorithm/src)
+* [Exercise 003 - Red-Black Tree](https://github.com/Joao-Victor-RVG/IF-Goiano-ED2/tree/main/Exercises/Exercise%20003%20Red-Black%20Tree/src)
 
+<br>
 
+### Trabalhos Academicos / Academic Works
+
+* [Tabelas Hash - Hash Table](https://github.com/Joao-Victor-RVG/IF-Goiano-ED2/tree/main/Academic%20works/Data%20Structure%20-%20Hash)
 
 
 <br>
   
 
- 
-
 ### Trabalhos Acadêmico Videos/ Academic Works Videos
 
-<br>
-
-## Link dos Videos do Youtube / Link to YouTube Videos
+* [Video 001](https://github.com/Joao-Victor-RVG/IF-Goiano-ED2/tree/main/Exercises/Video)
 
 <br>
 
+### Link dos Videos do Youtube / Link to YouTube Videos
 
-### Exercicios Bonus / Bonus Exercises 
+* [Video 001](https://youtu.be/3fDbiiaiOnc)
+
+<br>
+
+
+### Aplicação prática / Practical application
+
+* [library](https://github.com/Joao-Victor-RVG/IF-Goiano-ED2/tree/main/Exercises/Aplica%C3%A7%C3%A3o%20Pr%C3%A1tica)
   
 <br>
 
