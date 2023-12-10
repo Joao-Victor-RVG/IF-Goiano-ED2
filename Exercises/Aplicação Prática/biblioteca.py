@@ -1,3 +1,4 @@
+from random import randint
 class Usuario:
     def __init__(self, cpf, senha):
         self.cpf = cpf
@@ -225,16 +226,72 @@ biblioteca.adicionar_livro("O MORRO DOS VENTOS UIVANTES", "Emily Brontë")
 biblioteca.adicionar_livro("O CONDE DE MONTE CRISTO", "Alexandre Dumas")
 biblioteca.adicionar_livro("O SENHOR DOS ANÉIS", "J.R.R. Tolkien")
 biblioteca.adicionar_livro("O PEQUENO PRÍNCIPE", "Antoine de Saint-Exupéry")
+biblioteca.adicionar_livro("O HOBBIT", "J.R.R. Tolkien")
+biblioteca.adicionar_livro("O ALQUIMISTA", "Paulo Coelho")
+biblioteca.adicionar_livro("O CÓDIGO DA VINCI", "Dan Brown")
+biblioteca.adicionar_livro("O MÉDICO", "Noah Gordon")
+biblioteca.adicionar_livro("A CABANA", "William P. Young")
+
 
 while True:
-    titulo_livro = input("Digite o nome do livro que deseja buscar: ").upper()
+    titulo_livro = input("Digite o nome do livro que deseja buscar (ou 'sair' para encerrar): ").upper()
+
+    if titulo_livro == 'SAIR':
+        print("Você não selecionou nenhum livro. Encerrando o programa.")
+        break
+
     livro_encontrado = biblioteca.buscar_livro(titulo_livro)
 
     if livro_encontrado:
         print(f"Livro encontrado: {livro_encontrado.titulo} - {livro_encontrado.autor}")
-        break
+
+        # Adiciona o livro à lista de seleção do usuário
+        selecao_livros = [livro_encontrado]
+
+        while True:
+            opcao = input("Digite o nome de mais um livro ou digite 'sair' para encerrar a seleção de livros: ").upper()
+
+            if opcao == 'SAIR':
+                break
+
+            livro_encontrado = biblioteca.buscar_livro(opcao)
+
+            if livro_encontrado:
+                print(f"Livro encontrado: {livro_encontrado.titulo} - {livro_encontrado.autor}")
+                selecao_livros.append(livro_encontrado)
+            else:
+                print("Livro não encontrado. Tente novamente.")
+
+        if not selecao_livros:
+            print("Você não selecionou nenhum livro. Encerrando o programa.")
+            break
+
+        # Aplica o algoritmo Coktelsort para ordenar os livros selecionados
+        def coktelsort(lista_livros):
+            n = len(lista_livros)
+            for i in range(n):
+                for j in range(0, n-i-1):
+                    if lista_livros[j].titulo > lista_livros[j+1].titulo:
+                        lista_livros[j], lista_livros[j+1] = lista_livros[j+1], lista_livros[j]
+            return lista_livros
+
+        selecao_livros = coktelsort(selecao_livros)
+
+        # Exibe os livros ordenados para o usuário
+        print("Livros selecionados (ordenados):")
+        for livro in selecao_livros:
+            print(f"{livro.titulo} - {livro.autor}")
+
+        # Oferece opções ao usuário
+        opcao_confirmacao = input("Deseja confirmar a seleção? (S para sim, N para editar): ").upper()
+        if opcao_confirmacao == 'S':
+            print("Seleção confirmada. Obrigado!")
+            break
     else:
         print("Livro não encontrado. Tente novamente.")
+
+
+
 
 
 
